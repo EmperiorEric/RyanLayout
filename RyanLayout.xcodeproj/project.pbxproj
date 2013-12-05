@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5F971D1835AE10008B4FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F971C1835AE10008B4FD0 /* Foundation.framework */; };
+		EF5F971F1835AE10008B4FD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F971E1835AE10008B4FD0 /* CoreGraphics.framework */; };
+		EF5F97211835AE10008B4FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F97201835AE10008B4FD0 /* UIKit.framework */; };
+		EF5F97271835AE10008B4FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5F97251835AE10008B4FD0 /* InfoPlist.strings */; };
+		EF5F97291835AE10008B4FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5F97281835AE10008B4FD0 /* main.m */; };
+		EF5F972D1835AE10008B4FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5F972C1835AE10008B4FD0 /* AppDelegate.m */; };
+		EF5F97331835AE10008B4FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5F97321835AE10008B4FD0 /* ViewController.m */; };
+		EF5F97351835AE10008B4FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5F97341835AE10008B4FD0 /* Images.xcassets */; };
+		EF5F973C1835AE10008B4FD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F973B1835AE10008B4FD0 /* XCTest.framework */; };
+		EF5F973D1835AE10008B4FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F971C1835AE10008B4FD0 /* Foundation.framework */; };
+		EF5F973E1835AE10008B4FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F97201835AE10008B4FD0 /* UIKit.framework */; };
+		EF5F97461835AE10008B4FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5F97441835AE10008B4FD0 /* InfoPlist.strings */; };
+		EF5F97481835AE10008B4FD0 /* RyanLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5F97471835AE10008B4FD0 /* RyanLayoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5F973F1835AE10008B4FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5F97111835AE10008B4FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5F97181835AE10008B4FD0;
+			remoteInfo = RyanLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5F97191835AE10008B4FD0 /* RyanLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyanLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5F971C1835AE10008B4FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF5F971E1835AE10008B4FD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF5F97201835AE10008B4FD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF5F97241835AE10008B4FD0 /* RyanLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RyanLayout-Info.plist"; sourceTree = "<group>"; };
+		EF5F97261835AE10008B4FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5F97281835AE10008B4FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5F972A1835AE10008B4FD0 /* RyanLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RyanLayout-Prefix.pch"; sourceTree = "<group>"; };
+		EF5F972B1835AE10008B4FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5F972C1835AE10008B4FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5F97311835AE10008B4FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5F97321835AE10008B4FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5F97341835AE10008B4FD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF5F973A1835AE10008B4FD0 /* RyanLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyanLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5F973B1835AE10008B4FD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF5F97431835AE10008B4FD0 /* RyanLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RyanLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		EF5F97451835AE10008B4FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5F97471835AE10008B4FD0 /* RyanLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RyanLayoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5F97161835AE10008B4FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F971F1835AE10008B4FD0 /* CoreGraphics.framework in Frameworks */,
+				EF5F97211835AE10008B4FD0 /* UIKit.framework in Frameworks */,
+				EF5F971D1835AE10008B4FD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5F97371835AE10008B4FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F973C1835AE10008B4FD0 /* XCTest.framework in Frameworks */,
+				EF5F973E1835AE10008B4FD0 /* UIKit.framework in Frameworks */,
+				EF5F973D1835AE10008B4FD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5F97101835AE10008B4FD0 = {
+			isa = PBXGroup;
+			children = (
+				EF5F97221835AE10008B4FD0 /* RyanLayout */,
+				EF5F97411835AE10008B4FD0 /* RyanLayoutTests */,
+				EF5F971B1835AE10008B4FD0 /* Frameworks */,
+				EF5F971A1835AE10008B4FD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5F971A1835AE10008B4FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F97191835AE10008B4FD0 /* RyanLayout.app */,
+				EF5F973A1835AE10008B4FD0 /* RyanLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5F971B1835AE10008B4FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F971C1835AE10008B4FD0 /* Foundation.framework */,
+				EF5F971E1835AE10008B4FD0 /* CoreGraphics.framework */,
+				EF5F97201835AE10008B4FD0 /* UIKit.framework */,
+				EF5F973B1835AE10008B4FD0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5F97221835AE10008B4FD0 /* RyanLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F972B1835AE10008B4FD0 /* AppDelegate.h */,
+				EF5F972C1835AE10008B4FD0 /* AppDelegate.m */,
+				EF5F97311835AE10008B4FD0 /* ViewController.h */,
+				EF5F97321835AE10008B4FD0 /* ViewController.m */,
+				EF5F97341835AE10008B4FD0 /* Images.xcassets */,
+				EF5F97231835AE10008B4FD0 /* Supporting Files */,
+			);
+			path = RyanLayout;
+			sourceTree = "<group>";
+		};
+		EF5F97231835AE10008B4FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F97241835AE10008B4FD0 /* RyanLayout-Info.plist */,
+				EF5F97251835AE10008B4FD0 /* InfoPlist.strings */,
+				EF5F97281835AE10008B4FD0 /* main.m */,
+				EF5F972A1835AE10008B4FD0 /* RyanLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5F97411835AE10008B4FD0 /* RyanLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F97471835AE10008B4FD0 /* RyanLayoutTests.m */,
+				EF5F97421835AE10008B4FD0 /* Supporting Files */,
+			);
+			path = RyanLayoutTests;
+			sourceTree = "<group>";
+		};
+		EF5F97421835AE10008B4FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F97431835AE10008B4FD0 /* RyanLayoutTests-Info.plist */,
+				EF5F97441835AE10008B4FD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5F97181835AE10008B4FD0 /* RyanLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5F974B1835AE10008B4FD0 /* Build configuration list for PBXNativeTarget "RyanLayout" */;
+			buildPhases = (
+				EF5F97151835AE10008B4FD0 /* Sources */,
+				EF5F97161835AE10008B4FD0 /* Frameworks */,
+				EF5F97171835AE10008B4FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RyanLayout;
+			productName = RyanLayout;
+			productReference = EF5F97191835AE10008B4FD0 /* RyanLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5F97391835AE10008B4FD0 /* RyanLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5F974E1835AE10008B4FD0 /* Build configuration list for PBXNativeTarget "RyanLayoutTests" */;
+			buildPhases = (
+				EF5F97361835AE10008B4FD0 /* Sources */,
+				EF5F97371835AE10008B4FD0 /* Frameworks */,
+				EF5F97381835AE10008B4FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5F97401835AE10008B4FD0 /* PBXTargetDependency */,
+			);
+			name = RyanLayoutTests;
+			productName = RyanLayoutTests;
+			productReference = EF5F973A1835AE10008B4FD0 /* RyanLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5F97111835AE10008B4FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = PopArcade;
+				TargetAttributes = {
+					EF5F97391835AE10008B4FD0 = {
+						TestTargetID = EF5F97181835AE10008B4FD0;
+					};
+				};
+			};
+			buildConfigurationList = EF5F97141835AE10008B4FD0 /* Build configuration list for PBXProject "RyanLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5F97101835AE10008B4FD0;
+			productRefGroup = EF5F971A1835AE10008B4FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5F97181835AE10008B4FD0 /* RyanLayout */,
+				EF5F97391835AE10008B4FD0 /* RyanLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5F97171835AE10008B4FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F97351835AE10008B4FD0 /* Images.xcassets in Resources */,
+				EF5F97271835AE10008B4FD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5F97381835AE10008B4FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F97461835AE10008B4FD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5F97151835AE10008B4FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F97331835AE10008B4FD0 /* ViewController.m in Sources */,
+				EF5F972D1835AE10008B4FD0 /* AppDelegate.m in Sources */,
+				EF5F97291835AE10008B4FD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5F97361835AE10008B4FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F97481835AE10008B4FD0 /* RyanLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5F97401835AE10008B4FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5F97181835AE10008B4FD0 /* RyanLayout */;
+			targetProxy = EF5F973F1835AE10008B4FD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5F97251835AE10008B4FD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5F97261835AE10008B4FD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF5F97441835AE10008B4FD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5F97451835AE10008B4FD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5F97491835AE10008B4FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EF5F974A1835AE10008B4FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5F974C1835AE10008B4FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RyanLayout/RyanLayout-Prefix.pch";
+				INFOPLIST_FILE = "RyanLayout/RyanLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF5F974D1835AE10008B4FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RyanLayout/RyanLayout-Prefix.pch";
+				INFOPLIST_FILE = "RyanLayout/RyanLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF5F974F1835AE10008B4FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RyanLayout.app/RyanLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RyanLayout/RyanLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RyanLayoutTests/RyanLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF5F97501835AE10008B4FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RyanLayout.app/RyanLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RyanLayout/RyanLayout-Prefix.pch";
+				INFOPLIST_FILE = "RyanLayoutTests/RyanLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5F97141835AE10008B4FD0 /* Build configuration list for PBXProject "RyanLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5F97491835AE10008B4FD0 /* Debug */,
+				EF5F974A1835AE10008B4FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5F974B1835AE10008B4FD0 /* Build configuration list for PBXNativeTarget "RyanLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5F974C1835AE10008B4FD0 /* Debug */,
+				EF5F974D1835AE10008B4FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5F974E1835AE10008B4FD0 /* Build configuration list for PBXNativeTarget "RyanLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5F974F1835AE10008B4FD0 /* Debug */,
+				EF5F97501835AE10008B4FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5F97111835AE10008B4FD0 /* Project object */;
+}
