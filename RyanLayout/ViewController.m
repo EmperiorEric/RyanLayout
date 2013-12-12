@@ -24,15 +24,16 @@
   - Thats my view! aka, the what if someone turns on AutoLayout and I didn't want them to? Hint: you can request it too.
   - Intrinsic Content Size based on Frame... its not impossible. Hint: Apple breaks rules too.
   - A grid with fixed item sizes ala UICollectionViewFlowLayout. Hint: not easy.
+  - UILayoutSupport Protocol
  
  What have I learned over my month of AutoLayout boot camp?
-  - Its not always easy, it can be hard to come up with rules that last and place nice.
+  - Its not always easy, it can be hard to come up with rules that last and play nice.
   - Its also not always as long winded as it seemed at first. Things can be simple.
   - Its not always easy, sometimes you can't help but dive back into the depths of 7 
         line single constraints. Visual Format just isn't the whole package.
   - It CAN be done.
   - Sometimes it shouldn't be done. AutoLayout for now, isn't the end all.
-        There are times you may still need to break out some good old frames and YouLayout.
+        There are times you may still need to break out some good old frames and YouLayout™.
         AutoLayout is designed for everyone, by the law of cool, you've got to add the umph,
         and that means doing your own linear equations for custom layouts.
  
@@ -66,7 +67,7 @@
 #define AnimatingChangedConstants (2)
 #define AnimatingNewConstraints (3)
 
-#define Layout AnimatingNewConstraints
+#define Layout BasicInCode
 
 @implementation ViewController
 
